@@ -1,0 +1,179 @@
+#beerlevel{
+    position: relative;
+    left:0;
+    right:0;
+    width: 300px;
+    bottom:111px;
+    z-index: 1;
+  }
+#wave1{
+    position: relative;
+    top:89px;
+    z-index: 2;
+}
+#wave2{
+    position: relative;
+    top:-65px;
+    z-index: 0;
+}
+#wave3{
+    position: relative;
+    top:-219px;
+    z-index: 1;
+}
+#bottle{
+    overflow: hidden;
+    position: fixed;
+    height: 175px;
+    width: 96px;
+    bottom:36px;
+    z-index: -1;
+    right:100px;
+    border-radius: 28px;
+}
+  #alcool{
+    background: #ffcd56;
+    position: absolute;
+    width: 300px;
+    top:0px;
+    height: 300px;
+    margin-top: 90px;
+  }
+
+  #bibine{
+      width:250px;
+      position: fixed;
+      bottom:-30px;
+      -webkit-filter: blur(0.4px);
+  }
+  #globalbibine{
+      z-index: 99;
+      position: fixed;
+      right:250px;
+  }
+
+  body{
+      min-height:180vh;
+  }
+  #background{
+      position: fixed;
+      height:100vh;
+      width: 100%;
+      background-image: url("../img/past.gif");
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+  }
+  .titlewhite{
+      color:white;
+  }
+
+  .vehicle1{
+      position: fixed;
+      bottom:16%;
+      left:0px;
+      width: 24%;
+      z-index: 10;       
+    }
+
+  .vehicle2{
+      position: fixed;
+      bottom:7%;
+      right:150px;
+      -webkit-filter: blur(0.8px);
+      width: 34%;      
+      z-index: 10;       
+      
+    }
+
+    .vehicle3{
+        position: fixed;
+        bottom:5%;
+        right:150px;
+        -webkit-filter: blur(0.8px);
+        width: 28%;      
+        z-index: 10;       
+        
+    }
+
+      .personnage1{
+        position: fixed;
+        bottom:232px;
+        right:14%;
+        width: 130px;
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s;      
+      }
+
+      .personnage2{
+        position: fixed;
+        bottom:232px;
+        right:19%;
+        width: 130px;
+        -webkit-transition: bottom 0.6s, right 0.2s, rotate 1s;
+        transition: bottom 0.6s, right 0.2s, rotate 1s;        
+      }
+      .personnage3{
+        position: fixed;
+        bottom:6%;
+        right:24%;
+        width: 13%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s; 
+        z-index: 50;     
+      }
+
+      .personnage4{
+        position: fixed;
+        bottom:-11%;
+        right:15%;
+        width: 20%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s;
+        z-index: 50;      
+      }
+
+      .personnage5{
+        position: fixed;
+        bottom:6%;
+        left:-3%;
+        width: 18%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s; 
+        z-index: 0;     
+      }
+
+      .personnage6{
+        position: fixed;
+        bottom:7%;
+        right:15%;
+        width: 13%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s;
+        z-index: 9;      
+      }
+
+      .messager{
+        position: fixed;
+        bottom: 25.5%;
+        left: -2%;
+        width: 10%;   
+      }
+
+      #past,#now,#futur{
+        -webkit-box-shadow: 1px 3px 5px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 3px 5px -1px rgba(0,0,0,0.75);
+        box-shadow: 1px 3px 5px -1px rgba(0,0,0,0.75);
+      }
+
+
+.timemachine{
+    position: fixed;
+    width: 100%;
+    bottom:15px;
+}
+.timemachine .row{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
